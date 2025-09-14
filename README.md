@@ -1,7 +1,3 @@
-Got it 👍 Here's a **simple README.md** you can use for your MongoDB backup/restore setup with cron.
-
----
-
 # MongoDB Backup & Restore with AWS S3
 
 This project provides simple shell scripts to **backup** a MongoDB database and upload it to **AWS S3**, and to **restore** the database from the latest backup.
@@ -103,6 +99,5 @@ Add the line:
 * `--drop` is used in restore to overwrite collections. Remove it if you want to keep existing data.
 * Always verify restore on a test database before applying to production.
 
----
-
-Would you like me to also add a **section on manually restoring a specific backup by timestamp** (instead of always latest)?
+Problem Statement from : https://roadmap.sh/projects/automated-backups
+PS: Didnt used Cloudfare since it was asking for credit card, instead used S3 which does the work!
